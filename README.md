@@ -4,7 +4,8 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title> 혈압계 이름짓기 투표 페이지 </title>
+  //<title> 혈압계 이름짓기 투표 페이지 </title>
+  혈압계 이름짓기 투표 페이지
  </head>
 
  <body>
