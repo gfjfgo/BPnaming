@@ -52,6 +52,8 @@ ry=1
 /* document.write('<a href='+'"'+imagelinks[ry]+'"'+' target=_blank><img src="'+myimages[ry]+'" border=0></a>') */
 /*document.write('<a href='+'"'+imagelinks[ry]+'"'+' target=_blank><img src="'+myimages[ry]+'" border=0></a>')*/
 
+[설문 페이지로 연결 ](imagelinks[ry], "설문 페이지로 연결 ")
+
 //document.write('<A href='+'"'+imagelinks[ry]+'"'+' target=_blank> 설문 페이지로 연결 </A>')
 document.write('<A href='+'"'+imagelinks[ry]+'"'+' target=_blank> 설문 페이지로 연결 </A>')
 document.write('  ' + ry);
