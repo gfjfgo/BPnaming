@@ -17,11 +17,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;2) 영어 이름 없는 경우<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3) 중복된 아이디어 중 나중에 접수된 경우<br/>
 위 사항에 해당하는 것들은 제외하였고, 항목이 많아 사람에 따라서 임의로 보이게 됩니다.<br/>
-
+<br/>
 제목과 설명을 읽고, 심사 기준에 맞춰서 투표를 진행해 주시면 됩니다.<br/>
-
+<br/>
 평가는 총 3가지 항목(관련 연상성, 발음 용이성, 전체 선호도)에 대해서 평가하게 됩니다.<br/>
-
+<br/>
 아래 링크를 눌러 설문조사 페이지로 이동됩니다.<br/>
 (인바디 그룹웨어 아이디로 로그인 해야 진행 하실 수 있습니다.)<br/>
 <br/>
@@ -57,6 +57,10 @@ var ry=Math.floor(Math.random()*(myimages.length-1))+1
 
 if (ry==0)
 ry=1
+ 
+if (ry>5)
+ry=5
+ 
 /* 원하는 타깃을 지정하는 방법입니다 */
 /* 여기에 (target=타깃명)을 적어주면 됩니다. */
 /* document.write('<a href='+'"'+imagelinks[ry]+'"'+' target=_blank><img src="'+myimages[ry]+'" border=0></a>') */
